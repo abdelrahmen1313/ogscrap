@@ -1,12 +1,12 @@
 {
   "name": "ogscrap",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Lightweight utility to fetch a web page and extract clean metadata.",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "tsc"
   },
-  "keywords": [],
+  "keywords": ["metadata" , "ogscrap", "page-metadata", "scraper"],
   "author": "edah",
   "license": "MIT",
   "type": "module",
