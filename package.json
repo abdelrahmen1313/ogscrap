@@ -1,6 +1,6 @@
 {
   "name": "ogscrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight utility to fetch a web page and extract clean metadata.",
   "main": "./dist/index.js",
   "scripts": {
