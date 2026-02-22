@@ -1,14 +1,14 @@
 {
   "name": "ogscrap",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight utility to fetch a web page and extract clean metadata.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
     }
   },
   "scripts": {
