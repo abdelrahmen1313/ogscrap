@@ -18,7 +18,7 @@ It returns a simple JSON object with:
 ## Usage
 
 ```ts
-import { fetchPageMetadata } from "./ogscrap";
+import { fetchPageMetadata } from "ogscrap";
 
 const data = await fetchPageMetadata("https://example.com/post");
 console.log(data);
