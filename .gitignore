@@ -1,2 +1,6 @@
 node_modules/
 dist/
+index.js
+index.d.js
+lib/
+lib/*
