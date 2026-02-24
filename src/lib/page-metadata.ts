@@ -99,9 +99,11 @@ function getImage($: cheerio.CheerioAPI, url: string): string {
 export async function fetchPageMetadata(url: string): Promise<PageMetadata> {
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; page-metadata/1.0)",
-      accept: "text/html,application/xhtml+xml",
-      referrerPolicy: "no-referrer"
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "cache-control": "no-cache",
+      "pragma": "no-cache",
+      "accept": "text/html,application/xhtml+xml",
+      "referrerPolicy": "no-referrer"
     },
   });
 
